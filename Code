@@ -1,0 +1,12 @@
+#try and except in real life scenario
+
+rawstr = input('Please enter a number: ')
+try:
+    irawstr = int(rawstr)
+except:
+    irawstr = -1
+    
+if irawstr > 0:
+    print('Nice job!!')
+else:
+    print('Not a number')
