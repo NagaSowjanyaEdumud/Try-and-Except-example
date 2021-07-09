@@ -1,12 +1,17 @@
 #try and except in real life scenario
 
-rawstr = input('Please enter a number: ')
+fh = input('Please enter the number of hours you worked: ')
+fr = input('Please enter your hourly pay: ')
 try:
-    irawstr = int(rawstr)
+    eh = float(fh)
+    er = float(fr)
 except:
-    irawstr = -1
-    
-if irawstr > 0:
-    print('Nice job!!')
+    print('Error, Please enter numeric input')
+    quit()
+if eh > 40:
+    gp = eh * er
+    extra = (eh -40) * (er * 0.5)
+    tp = gp + extra
 else:
-    print('Not a number')
+    tp = eh * er
+print(tp)
