@@ -1,4 +1,4 @@
-#try and except in real life scenario
+#try and except in real life scenario: write a pay computation to give the employee 1.5 times the hourly rate for hours worked above 40 hours.
 
 fh = input('Please enter the number of hours you worked: ')
 fr = input('Please enter your hourly pay: ')
